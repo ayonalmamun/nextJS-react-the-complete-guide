@@ -1,4 +1,4 @@
-function Todo(props) {
+export default function Todo(props) {
   const deleteHandler = () => {
     console.log("deleted");
     console.log(props.text);
@@ -15,5 +15,3 @@ function Todo(props) {
     </div>
   );
 }
-
-export default Todo;
